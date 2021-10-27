@@ -2,7 +2,7 @@
 
 
 body {
-	background-image: url(images/sea.jpeg);
+	background-image: url("images/sea.jpeg");
 	color:  #073459;
 	font-family: 'Playfair Display', serif;
 	font-size: 17px;
