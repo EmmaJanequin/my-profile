@@ -1,0 +1,115 @@
+/* Colors and fonts */
+
+
+body {
+	background-image: url(images/sea.jpeg);
+	color:  #073459;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+		font-family: 'Playfair Display', serif;
+		color: #43bbd9;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a { 
+  text-decoration: none; 
+  color: #073459 ;
+  font-weight: bolder;
+}
+
+a:hover {
+	color: #43bbd9;
+}
+
+/* Customer design with class (99% of your design*/
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	 }
+ }
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	 }
+ }
+
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 40%;
+}
+
+.btn-blue {
+
+	background-color: #43bbd9;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+ 	background-color: #073459;
+ 	color: white;
+ }
+ 
+
+ .list-inline {
+ 	list-style: none;
+ 	padding-left: 0px;
+ }
+
+ 	.list-inline li {
+ 		display: inline;
+ 		padding: 10px;
+ 	}
+
+ 	.list-inline i {
+ 		font-size: 50px;
+ 		color: #073459;
+ 	}
+
+ 	.list-inline i : hover {
+ 		font-size: 50px;
+ 		color: #073459;
+ 	}
+
+ 	/* Design adjustments using id (1% design remaining) */
+ 	#introduction p {
+ 		margin-bottom: 40px;
+ 	}
+
+ 
